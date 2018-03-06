@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+       
+<tiles-definitions>
+ <!-- ADMIN TEMPLATE -->
+  <definition name="admin.template" template="/WEB-INF/templates/admin/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/admin/header.jsp" />
+     <put-attribute name="sidebar" value="/WEB-INF/templates/admin/sidebar.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/admin/footer.jsp" />
+  </definition>
+  
+  <definition name="admin.index.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/index/index.jsp" />
+  </definition>
+   <definition name="admin.category.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/index.jsp" />
+  </definition>
+   <definition name="admin.cat.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/add.jsp" />
+  </definition>
+   <definition name="admin.cat.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/edit.jsp" />
+  </definition>
+   <definition name="admin.user.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/user/index.jsp" />
+  </definition>
+    <definition name="admin.user.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/user/add.jsp" />
+  </definition>
+   <definition name="admin.user.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/user/edit.jsp" />
+  </definition>
+  <definition name="admin.user.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/user/search.jsp" />
+  </definition>
+  <definition name="admin.new.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/index.jsp" />
+  </definition>
+   <definition name="admin.new.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/search.jsp" />
+  </definition>
+    <definition name="admin.new.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/add.jsp" />
+  </definition>
+   <definition name="admin.new.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/edit.jsp" />
+  </definition>
+   <definition name="admin.contact.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/contact/index.jsp" />
+  </definition>
+  <definition name="admin.comment.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/comment/index.jsp" />
+  </definition>
+   <definition name="admin.maxim.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/maxim/index.jsp" />
+  </definition>
+  <definition name="admin.maxim.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/maxim/add.jsp" />
+  </definition>
+  <definition name="admin.maxim.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/maxim/edit.jsp" />
+  </definition>
+  <definition name="admin.maxim.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/maxim/search.jsp" />
+  </definition>
+   <definition name="admin.job.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/job/index.jsp" />
+  </definition>
+  <definition name="admin.job.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/job/add.jsp" />
+  </definition>
+  <definition name="admin.job.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/job/edit.jsp" />
+  </definition>
+  <definition name="admin.job.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/job/search.jsp" />
+  </definition>
+   <definition name="admin.network.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/network/index.jsp" />
+  </definition>
+  <definition name="admin.network.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/network/add.jsp" />
+  </definition>
+  <definition name="admin.network.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/network/edit.jsp" />
+  </definition>
+  <definition name="admin.skill.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/skill/index.jsp" />
+  </definition>
+  <definition name="admin.skill.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/skill/add.jsp" />
+  </definition>
+  <definition name="admin.skill.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/skill/edit.jsp" />
+  </definition>
+  <definition name="admin.ads.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/ads/index.jsp" />
+  </definition>
+  <definition name="admin.ads.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/ads/add.jsp" />
+  </definition>
+  <definition name="admin.ads.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/ads/edit.jsp" />
+  </definition>
+  <definition name="admin.ads.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/ads/search.jsp" />
+  </definition>
+  <definition name="admin.project.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/project/index.jsp" />
+  </definition>
+  <definition name="admin.project.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/project/add.jsp" />
+  </definition>
+  <definition name="admin.project.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/project/edit.jsp" />
+  </definition>
+  <definition name="admin.project.search" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/project/search.jsp" />
+  </definition>
+   <!--END ADMIN TEMPLATE -->
+    <!-- ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+   <!-- PUBLIC TEMPLATE -->
+  <definition name="public.template" template="/WEB-INF/templates/public/other/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/public/other/header.jsp" />
+     <put-attribute name="right_bar" value="/WEB-INF/templates/public/other/right_bar.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/public/other/footer.jsp" />
+  </definition>
+  <definition name="public.template_contact" template="/WEB-INF/templates/public/other/template_contact.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/public/other/header.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/public/other/footer.jsp" />
+  </definition>
+  
+  <definition name="public.index.index" template="/WEB-INF/jsp/public/index/index.jsp">
+  </definition>
+  
+  <definition name="public.index.cat" extends="public.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/public/other/cat.jsp" />
+  </definition>
+  
+  <definition name="public.index.detail" extends="public.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/public/other/detail.jsp" />
+  </definition>
+  <definition name="public.index.detailProject" extends="public.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/public/other/detailProject.jsp" />
+  </definition>
+  
+  <definition name="public.index.contact" extends="public.template_contact">
+    <put-attribute name="body" value="/WEB-INF/jsp/public/other/contact.jsp" />
+  </definition>
+   <definition name="public.search.index" extends="public.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/public/search.jsp" />
+  </definition>
+  <!--END PUBLIC TEMPLATE -->
+  <!-- BEGIN AUTHOGI TEMPLATES -->
+   <definition name="auth.login" template="/WEB-INF/jsp/auth/login.jsp">
+  </definition>
+  <!-- END AUTH TEMPLATES -->
+</tiles-definitions>
